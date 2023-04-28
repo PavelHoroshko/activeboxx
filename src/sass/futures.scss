@@ -1,0 +1,36 @@
+.futures {
+  padding: 116px 0;
+  background-color: $white;
+}
+.futures-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.futures-item {
+  width: 350px;
+  margin: 0 15px 90px;
+
+  &:nth-child(4),
+  &:nth-child(5),
+  &:nth-child(6) {
+    margin-bottom: 0;
+  }
+}
+
+.futures-item__img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px;
+}
+.futures-item__title {
+  text-align: center;
+  @include h3;
+  margin-bottom: 40px;
+}
+.futures-item__text {
+  p {
+    @include text;
+    text-align: center;
+  }
+}
